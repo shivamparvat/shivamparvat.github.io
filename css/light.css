@@ -1,0 +1,102 @@
+.light{
+    background-color: #dbd0d0;
+    color: #373b40;
+}
+.light .date,
+.light a,
+.light .color_higlight{
+    color: #4c8dd6;
+}
+a{
+    color: #dbd0d0;
+}
+.light header nav {
+    background-color: #dbd0d0;
+    box-shadow: 10px 10px 30px rgba(0,0,0, 0.2);
+	    border-top: 1px solid #ffffff80;
+	    border-left: 1px solid rgba(255,255,255,0.5);
+	    background: rgba(255,255,255,0.01);
+	    backdrop-filter: blur(5px);
+}
+
+.light a .anim_button span em{
+    color: #606974;
+    text-shadow: 0 16px 0 #4c8dd6;
+}
+
+.light .header_name h1 {
+    color: #4c8dd6;
+}
+.light .live_text{
+    background-color: #dbd0d0;
+    color: transparent;
+    -webkit-text-stroke: .09rem #373b40;
+}
+ .light .learn_button:hover{
+    border: 1px solid #4c8dd6;
+}
+
+.light .social_mediaBtn .social_btn{
+    border: none;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  5px 5px 9px #bebebe,
+             -5px -5px 9px #ffffff;
+}
+.light .Hline{
+border-color: #9b9b9b;
+}
+.shear_icon{
+    color: #373b40;
+}
+.light .selection_about,
+.light .resume,
+.light .portfolio {
+    border-top: 1px solid #9b9b9b;
+}
+
+.light .card_container .card{
+    background: #dbd0d0;
+    box-shadow:  6px 6px 12px #bab1b1,
+             -6px -6px 12px #fcefef;   
+}
+
+.light .card_container .card p:first-child,
+.light .card_container .card:hover .card_hover{
+    color:  #4c8dd6;
+}
+.light .card_container .card p{
+    color:#373b40;
+}
+
+.light .success-stroke,
+.light .circle-chart__circle{
+    stroke: #4c8dd6;
+}
+
+.light .circle-chart__background{
+    stroke: #373b4093;
+}
+
+.light #txteva  {
+    fill:#4c8dd6;
+    font-weight: 500;
+}
+.light .circle-chart__subline{
+    fill: rgb(87, 116, 211);
+
+}
+.light button[type="submit"]{
+    box-shadow:  4px 4px 9px #bab1b1,
+             -4px -4px 9px #fcefef;
+}
+
+.light .contact_container input,.light textarea{
+    color: #373b40;
+    border-top: none;
+    background: #dbd0d0;
+    box-shadow: inset 4px -5px 10px #bab1b1,
+                 inset -5px -5px 10px #fcefef;
+}
+.light .handBurger span{
+    background-color: #373b40;
+}

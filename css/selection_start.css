@@ -1,0 +1,133 @@
+.start_selection{
+    margin-top: 3.9rem;
+    height: 50rem;
+}
+.main_img{
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    /* border-top-right-radius:  40rem; */
+    border-bottom-right-radius:  40rem;
+}
+
+.main_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top
+}
+.live_text h1{
+    font-size: 45px;
+    padding: 20px;
+    margin-top: -20px;
+}
+.live_text {
+     width: 25rem;
+    height: 18rem;
+    background-color: #373b40;
+    position: absolute;
+    top: 28%;
+    left: 38%;
+    font-size: 15px;
+    padding: 35px 50px;
+    letter-spacing: 3px;
+    -webkit-text-stroke: .02rem rgb(255, 255, 255);
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+}
+.nice-font {
+    color: transparent;
+}
+
+.socialmedia_nav{
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    width: 8rem;
+    height: 100vh;
+    border-left: 1px solid #5f656d;
+    transition: all 0.5s ease;
+}
+.socialmedia_nav:hover{
+    border: none;
+    box-shadow: 20px 20px 60px rgba(0,0,0, 0.5);
+	border-left: 1px solid rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.01);
+	backdrop-filter: blur(5px);
+}
+
+.social_mediaBtn{
+    width: 4rem;
+    position: relative;
+    top: 45vh;
+    left: 50%;
+    transform: translateX(-30%);
+}
+.social_btn a{
+    color: #fff;
+}
+.social_mediaBtn .social_btn {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    border:1px solid #5f656d;
+    padding: 10px 30px 35px 15px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background: #373b40;
+    box-shadow: inset 5px 5px 9px #2e3236,
+            inset -5px -5px 9px #40444a;
+    transition: all 0.5s ease;
+}
+.Hline{
+    position: absolute;
+    height: 17rem;
+    right: 50%;
+    z-index: -1;
+    width: 1px;
+    border: 1px solid  #5f656d;
+    transform: translateX(-50%);
+}
+
+.social_mediaBtn .social_btn:hover{
+    border: 1px solid #68e0cf;
+    color: #68e0cf;
+}
+.social_btn:hover a{
+    color:#68e0cf;
+}
+
+.about_text_header
+{
+    position: absolute;
+    top: 33rem;
+    left: 50%;
+    text-align: center;
+    width: 30rem;
+    height: 20rem;
+}
+.socialmedia_nav .shear_icon{
+    visibility: hidden;
+}
+.learn_button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    padding-top: 9px;
+    width: 6rem;
+    height: 2.5rem;
+    border: 1px solid #656d75;
+    border-radius: 20px;
+}
+.learn_button:hover{
+    border: 1px solid #68e0cf;
+}
+.learn_button span{
+    font-size: 12px;
+    overflow: hidden;
+    display: block;
+}

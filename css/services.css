@@ -1,0 +1,39 @@
+.services{
+    border-top: 1px solid;
+    border-color: #5f656d #373b40 ;
+}
+.circle-chart__percent{
+    color: #fff;
+}
+.services_container{
+    width: 92%;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.services_container p{
+    margin-left: 20px;
+}
+
+.progress_container{
+    width: 17rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.circle-chart__percent{
+    color: #373b40;
+}
+
+#txteva  {
+    fill:#68e0cf;
+    font-weight: 500;
+}
+.circle-chart__subline{
+    fill: #fff;
+
+}

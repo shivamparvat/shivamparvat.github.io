@@ -1,0 +1,37 @@
+.selection_about{
+    width: 100%;
+    border-top: 1px solid;
+    border-color: #5f656d #373b40 ;
+    
+}
+
+.subheading{
+    font-size: 65px;
+    margin: 4rem 0 0 7rem;
+}
+
+.selection_about .about_subheading{
+    margin: 7rem 0 0 7rem;
+}
+
+.my_full_onfo,
+.my_info{
+    margin: 2rem 15rem;
+}
+.my_info li{
+    display: inline-block;
+    width: 
+    49%;
+}
+.my_info span{
+     display: inline-block;
+    margin: 2rem 1rem 0px 1rem;
+}
+
+.my_info a{
+    color: #68e0cf;
+}
+
+.my_full_onfo h1{
+    margin-bottom: 20px;
+}

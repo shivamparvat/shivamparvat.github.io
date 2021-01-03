@@ -1,0 +1,33 @@
+.resume{
+    border-top: 1px solid;
+    border-color: #5f656d #373b40 ;
+}
+.resume_container{
+    display: flex;
+    width: 80%;
+    margin-left: 10rem;
+}
+.resume_subcontainer{
+    padding: 3rem;
+}
+.resume_subcontainer h3{
+    height: 4rem;
+    margin: 2rem 0 0 0;
+    border-bottom: 1px solid#5f656d;
+}
+
+.resume_subcontainer p{
+    margin: 0 0 2rem 0;
+    padding-left:2rem ;
+}
+/* .resume_subcontainer p:not(.date){
+    overflow: auto;
+    height: 7rem;
+} */
+.resume_subcontainer .text{
+    border-left: 1px solid #5f656d;
+}
+.resume_subcontainer .date{
+    color: #68e0cf;
+    border-left: 1px solid#5f656d;
+}

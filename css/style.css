@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import "header.css";
+@import "selection_start.css";
+@import "selection_about.css";
+@import "resume.css";
+@import "portfolio.css";
+@import "services.css";
+@import "contact.css";
+@import "scrollbar.css";
+@import "progresscircle.css";
+@import "light.css";
+@import "media.css";
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+}
+
+body{
+        font-family: 'Poppins', sans-serif;
+        color: #dbd0d0;
+        background-color: #373b40;
+}
+.color_higlight{
+    color: #68e0cf
+}
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+footer{
+        z-index: 2;
+        height: 5rem;
+        background-color: #1f2124;
+}
+footer p{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 2rem;
+}
+
+
