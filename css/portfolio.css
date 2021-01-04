@@ -104,8 +104,8 @@
 }
 .gallery .main_card,
 .portfolio_video .main_card{
-    width: 50%;
-    height:70%;
+    width: 70%;
+    height:80%;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
@@ -128,8 +128,9 @@ top: 0%;
 }
 .carouseButton {
     position: relative;
-    top: -19rem;
+    top: -50%;
     width: 100%;
+    transform: translateY(-50%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -156,10 +157,11 @@ top: 0%;
 .cancelVideoButton{
     width: 100%;
     position: relative;
-    top: -36.5rem;
+    top: -100%;
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    transform: translateY(-100%);
 }
 .cancelButton button{
     margin-right: 1rem;
