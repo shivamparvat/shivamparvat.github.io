@@ -1,20 +1,24 @@
-console.log(document.getElementsByClassName('nev_item')[1].classList)
+const handBurger = document.querySelector('.handBurger')
+const hander = document.querySelector('.headerNav')
+document.querySelectorAll('.nev_item').forEach(item => {
+  console.log(item)
+  item.addEventListener('click', event => {
+    handBurger.classList.remove('active')
+    hander.classList.add('none')
+  })
+})
 
 
 // handburger #######################################
-const handBurger = document.querySelector('.handBurger')
-const hander = document.querySelector('.headerNav')
 handBurger.addEventListener('click', () => {
   if (handBurger.classList[1] == "active") {
     handBurger.classList.remove('active')
     hander.classList.add('none')
-    document.querySelector('header_name').classList.add('none')
   }
   else {
-  }
   handBurger.classList.add('active')
-  hander.classList.remove('none')
-  document.querySelector('header_name').classList.remove('none')
+    hander.classList.remove('none')
+  }
 })
 
 
