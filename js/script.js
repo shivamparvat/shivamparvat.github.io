@@ -1,7 +1,6 @@
 const handBurger = document.querySelector('.handBurger')
 const hander = document.querySelector('.headerNav')
 document.querySelectorAll('.nev_item').forEach(item => {
-  console.log(item)
   item.addEventListener('click', event => {
     handBurger.classList.remove('active')
     hander.classList.add('none')
