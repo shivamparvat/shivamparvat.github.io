@@ -1,11 +1,11 @@
-@media only screen and (min-width: 1024px){
+@media(min-width: 1024px){
     .headerNav{
         display: block;
     }
 }
 
 
-@media only screen and (max-width: 1400px){
+@media(max-width: 1400px){
     .my_info a{
         width: 5rem;
     }
@@ -16,7 +16,7 @@
 
 
 
-@media only screen and (max-width: 1024px){
+@media(max-width: 1024px){
     header nav{
         padding-bottom: 2.3rem;
     }
@@ -184,7 +184,7 @@
 
 
 
-@media only screen and (max-width: 850px){
+@media(max-width: 850px){
     .circle-chart {
     width: 125px;
     height: 125px;
@@ -196,7 +196,7 @@
 
 
 
-@media only screen and (max-width: 742px){
+@media(max-width: 742px){
     .live_text{
         left: 100%;
         top: 50%;
@@ -238,7 +238,7 @@
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 582px){
+@media(max-width: 582px){
     .resume_container{
         display: block;
     }
@@ -276,7 +276,7 @@
     transform: translate(-100%,-8%);
     }
 }
-@media only screen and (min-height: 850px){
+@media(min-height: 850px){
     .about_text_header {
         top: 73%;
     }
