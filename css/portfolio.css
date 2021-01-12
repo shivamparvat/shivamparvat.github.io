@@ -38,7 +38,6 @@
     margin: 20px;
     object-fit: contain;
     padding-top: 15px;
-    z-index: 1;
 }
 
 .card_container .card img {
