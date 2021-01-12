@@ -20,11 +20,12 @@
     height: 24.8rem;
     border-radius: 5px;
     transition: all 1s ease;
-    box-shadow:  6px 6px 12px #2f3236,
-             -6px -6px 12px #3f444a;
+    box-shadow:  15px 15px 25px #2f3236,
+             -15px -15px 25px #3f444a;
 }
-.card_container .card:hover{
-    background-color: #ffffff;
+ .card:hover{
+    background-color: #31313111;
+    /* filter: blur(1px); */
 }
 .card_container:not(:first-child){
     margin-bottom: 5rem;
@@ -37,7 +38,7 @@
     margin: 20px;
     object-fit: contain;
     padding-top: 15px;
-
+    z-index: 1;
 }
 
 .card_container .card img {

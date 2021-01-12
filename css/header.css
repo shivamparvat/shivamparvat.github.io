@@ -150,8 +150,8 @@ li:hover .anim_button span em{
 .glass{
         box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
 	    border-radius: 15px;
-	    border-top: 1px solid #ffffff80;
-	    border-left: 1px solid rgba(255,255,255,0.5);
+	    border-top: 1px solid #ffffff36;
+	    border-left: 1px solid #ffffff36;
 	    background: rgba(255,255,255,0.05);
 	    backdrop-filter: blur(5px);
 }

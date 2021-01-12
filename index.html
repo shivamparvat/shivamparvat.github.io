@@ -241,7 +241,7 @@
                     <h1 class="subheading"><span class="color_higlight">My</span> Project</h1>
                     <div class="project_container">
                         <div class="card_container " id="card_container">
-                            <div class="card cardGallery">
+                            <div class="card glass cardGallery">
                                 <div class="img"><img src="./assets/socialme.png" alt=""></div>
                                 <div class="text">
                                     <p>Gallery</p>
@@ -255,7 +255,7 @@
                                     <i class="cetegory">photos</i>
                                 </div>
                             </div>
-                            <div class="card" onclick="window.open(' https://shivamgoswami2711.github.io/notes/')">
+                            <div class="card glass" onclick="window.open(' https://shivamgoswami2711.github.io/notes/')">
                                 <div class="img"><img src="assets/webScreen.png" alt=""></div>
                                 <div class="text">
                                     <p>Link</p>
@@ -269,7 +269,7 @@
                                     <i class="cetegory">programig</i>
                                 </div>
                             </div>
-                            <div class="card cardVideo">
+                            <div class="card glass cardVideo">
                                 <div class="img"><img src="assets/loginpage.png" alt=""></div>
                                 <div class="text">
                                     <p>Video</p>
@@ -283,7 +283,7 @@
                                     <i class="cetegory">video</i>
                                 </div>
                             </div>
-                            <div class="card" onclick="window.open('https://codepen.io/shivamgoswami2711')">
+                            <div class="card glass" onclick="window.open('https://codepen.io/shivamgoswami2711')">
                                 <div class="img"><img src="assets/codepen.png" alt=""></div>
                                 <div class="text">
                                     <p>Codepen</p>
@@ -297,7 +297,7 @@
                                     <i class="cetegory">Webdev</i>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card glass">
                                 <div class="img"><img src="assets/ideaLogo.png" alt=""></div>
                                 <div class="text">
                                     <p>Image</p>
@@ -311,7 +311,7 @@
                                     <i class="cetegory">Graphics</i>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card glass">
                                 <div class="img"><img src="assets/bulblogo.png" alt=""></div>
                                 <div class="text">
                                     <p>Image</p>
@@ -409,6 +409,15 @@
             <footer>
                 <p>2020 © profile tamplate Developed and Designed by <span class="color_higlight">Shivam Goswami</span></p>
             </footer>
+            <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+                        <script>
+                VanillaTilt.init(document.querySelectorAll(".glass"), {
+                    max: 15,
+                    speed: 2000,
+                    glare: true,
+                    "max-glare": 1, 
+                });
+            </script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
              <script src="https://kit.fontawesome.com/e323c87374.js" crossorigin="anonymous"></script>
             <script type="module" src="js/script.js"></script> 
