@@ -20,17 +20,6 @@ handBurger.addEventListener('click', () => {
   }
 })
 
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "yellow";
-  } else {
-    document.body.style.backgroundColor = "pink";
-  }
-}
-
-const mediaQuery = window.matchMedia("(max-width: 700px)")
-myFunction(mediaQuery) // Call listener function at run time
-mediaQuery.addListener(myFunction) // Attach listener function on state changes
 
 // thame switch #############################################
 document.querySelector('.lightDark').addEventListener('click', () => {
