@@ -20,11 +20,6 @@ handBurger.addEventListener('click', () => {
   }
 })
 
-
-How TO - Media Queries with JavaScript
-Example
-If the viewport is less than, or equal to, 700 pixels wide, change the background color to yellow. If it is greater than 700, change it to pink
-
 function myFunction(x) {
   if (x.matches) { // If media query matches
     document.body.style.backgroundColor = "yellow";
@@ -33,9 +28,9 @@ function myFunction(x) {
   }
 }
 
-var x = window.matchMedia("(max-width: 700px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
+const mediaQuery = window.matchMedia("(max-width: 700px)")
+myFunction(mediaQuery) // Call listener function at run time
+mediaQuery.addListener(myFunction) // Attach listener function on state changes
 
 // thame switch #############################################
 document.querySelector('.lightDark').addEventListener('click', () => {
