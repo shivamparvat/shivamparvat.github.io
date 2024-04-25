@@ -31,3 +31,9 @@
     color: #68e0cf;
     border-left: 1px solid#5f656d;
 }
+
+li.bullet_point {
+    border-left: 1px solid #5f656d;
+    margin: 5px 0 5px 0;
+    padding-left: 1rem;
+}
