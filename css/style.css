@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import "header.css";
 @import "selection_start.css";
 @import "selection_about.css";
@@ -10,20 +10,20 @@
 @import "progresscircle.css";
 @import "light.css";
 @import "media.css";
-*{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-body{
-        font-family: 'Poppins', sans-serif;
-        color: #dbd0d0;
-        background-color: #373b40;
+body {
+  font-family: "Poppins", sans-serif;
+  color: #dbd0d0;
+  background-color: #373b40;
 }
-.color_higlight{
-    color: #68e0cf
+.color_higlight {
+  color: #68e0cf;
 }
 #container {
   margin: 20px;
@@ -31,18 +31,70 @@ body{
   height: 200px;
 }
 
-
-
-
-footer{
-        z-index: 2;
-        height: 5rem;
-        background-color: #1f2124;
+footer {
+  z-index: 2;
+  height: 5rem;
+  background-color: #1f2124;
 }
-footer p{
-        font-size: 12px;
-        text-align: center;
-        padding-top: 2rem;
+footer p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 2rem;
 }
 
+.image_container {
+  width: 10vh;
+  height: 10vh;
+}
+.Skills_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 3rem 0;
+}
+.Skills_container .Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  padding: 1rem;
+  margin: 1rem;
+  /* border-radius: 10px;
+  background: #dbd0d0;
+  box-shadow: 5px 5px 5px #c7bdbd, -5px -5px 5px #efe3e3; */
+}
 
+.Skills_container .Skills:hover {
+  background-color: #68e0cf87;
+  border-radius: 5px;
+}
+
+
+.Skills_container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 3rem 0;
+}
+.Skills_container2 .Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  padding: 1rem;
+  margin: 1rem;
+  /* border-radius: 10px;
+  background: #dbd0d0;
+  box-shadow: 5px 5px 5px #c7bdbd, -5px -5px 5px #efe3e3; */
+}
+
+.Skills_container2 .Skills:hover {
+  background-color: #68e0cf87;
+  border-radius: 5px;
+}

@@ -26,7 +26,7 @@ document.querySelector(".lightDark").addEventListener("click", () => {
     : bodyRef.classList.add("light");
 });
 
-// popup card ##############################################################
+// // popup card ##############################################################
 // const openGallery = document.querySelector(".gallery");
 // const openVideo = document.querySelector(".portfolio_video");
 // document.querySelector(".cardGallery").addEventListener("click", () => {
@@ -60,7 +60,7 @@ document.querySelector(".lightDark").addEventListener("click", () => {
 //       );
 //   });
 
-// slider #################################################
+// // slider #################################################
 // let slidePositon = 0;
 // const carouselItem = document.getElementsByClassName("carouselItem");
 // let slideNumber = carouselItem.length - 1;
