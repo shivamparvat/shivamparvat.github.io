@@ -78,9 +78,9 @@
     }
     .social_mediaBtn{
         display: none;
-        top: -75vh;
-        left: 10%;
-        transform: translateX(-100%);
+        top: -55vh;
+        left: 50%;
+        transform: translateX(-59%);
     }
     .socialmedia_nav:hover .social_mediaBtn .shear_icon{
         color: #dbd0d0;
