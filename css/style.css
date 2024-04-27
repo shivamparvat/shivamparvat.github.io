@@ -98,3 +98,24 @@ footer p {
   background-color: #68e0cf87;
   border-radius: 5px;
 }
+
+
+.projectSkills{
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.projectSkills .image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.projectSkills .image_container img{
+  object-fit: cover;
+}

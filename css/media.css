@@ -1,9 +1,3 @@
-@media (min-width: 1024px) {
-  .headerNav {
-    display: block;
-  }
-}
-
 @media (max-width: 1400px) {
   .my_info a {
     width: 5rem;
@@ -207,6 +201,10 @@
     top: 50%;
     transform: translate(-100%, -30%);
   }
+  .Skills_container2,
+  .Skills_container {
+    width: 100%;
+  }
   .live_text {
     width: 22rem;
     height: 15rem;
@@ -288,12 +286,15 @@
   .live_text {
     transform: translate(-100%, -8%);
   }
+  h1.subheading+p.color_higlight {
+    margin-left: 3rem !important;
+}
 }
 @media (max-width: 495px) {
   .about_text_header {
     text-align: center;
     width: 20rem;
-    top: 90%;
+    top: 80%;
   }
   .start_selection {
     margin-top: 3.9rem;
@@ -304,7 +305,7 @@
   .about_text_header {
     text-align: center;
     width: 18rem;
-    top: 90%;
+    top: 80%;
   }
   .start_selection {
     margin-top: 3.9rem;
@@ -320,5 +321,17 @@
 @media (min-height: 850px) {
   .about_text_header {
     top: 73%;
+  }
+}
+
+@media (max-width: 393px) {
+  .start_selection {
+    margin-top: 3.9rem;
+    height: 61rem;
+  }
+  .about_text_header {
+    text-align: center;
+    width: 20rem;
+    top: 80%;
   }
 }
