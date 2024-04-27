@@ -1,3 +1,9 @@
+
+@media (min-width: 1025px) {
+  .headerNav {
+    display: block;
+  }
+}
 @media (max-width: 1400px) {
   .my_info a {
     width: 5rem;
