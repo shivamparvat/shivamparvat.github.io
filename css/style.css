@@ -119,3 +119,8 @@ footer p {
 .projectSkills .image_container img{
   object-fit: cover;
 }
+
+.image_container + p{
+  text-align: center;
+  margin-top: 10px;
+}
